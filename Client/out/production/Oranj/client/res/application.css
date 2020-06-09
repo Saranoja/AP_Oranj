@@ -1,0 +1,24 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.textFlow {
+	-fx-background-color: #FFFFFF;
+	-fx-font-family: "Book Antiqua";
+}
+
+.textSystemMessage {
+	-fx-background-color: #960000;
+	-fx-font-family: "Book Antiqua";
+	-fx-font-size: 18;
+}
+
+.textBroadcastMessage {
+	-fx-background-color: #ff8715;
+	-fx-font-family: "Book Antiqua";
+	-fx-font-size: 18;
+}
+
+.textPrivateMessage {
+	-fx-background-color: #5d5d5d;
+	-fx-font-family: "Book Antiqua";
+	-fx-font-size: 18;
+}

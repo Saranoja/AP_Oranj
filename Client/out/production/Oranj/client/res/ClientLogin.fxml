@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="527.0" prefWidth="920.0" style="-fx-background-color: #f59212; -fx-border-color: white; -fx-border-width: 10;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.main.Login">
+   <children>
+      <Pane layoutX="445.0" prefHeight="527.0" prefWidth="476.0" style="-fx-background-color: white;">
+         <children>
+            <Label layoutX="96.0" layoutY="40.0" prefHeight="84.0" prefWidth="284.0" text="WELCOME" textFill="#f59212">
+               <font>
+                  <Font name="Broadway" size="51.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtUserName" layoutX="123.0" layoutY="158.0" prefHeight="45.0" prefWidth="219.0" promptText="Username">
+               <font>
+                  <Font name="Book Antiqua Bold" size="18.0" />
+               </font></TextField>
+            <PasswordField fx:id="txtPassword" layoutX="123.0" layoutY="227.0" prefHeight="45.0" prefWidth="219.0" promptText="Password">
+               <font>
+                  <Font name="Book Antiqua Bold" size="18.0" />
+               </font></PasswordField>
+            <Label disable="true" layoutX="41.0" layoutY="180.0" text="User Name: " textFill="WHITE" />
+            <Label disable="true" layoutX="48.0" layoutY="241.0" text="Password:" textFill="WHITE" />
+            <TextField fx:id="txtPort" layoutX="189.0" layoutY="295.0" prefHeight="45.0" prefWidth="88.0" promptText="5000" text="5000">
+               <font>
+                  <Font name="Book Antiqua Bold" size="14.0" />
+               </font></TextField>
+            <Label layoutX="133.0" layoutY="307.0" text="Port #" textFill="#f59212">
+               <font>
+                  <Font name="Book Antiqua Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnLogin" layoutX="171.0" layoutY="370.0" mnemonicParsing="false" onAction="#handleButtonActionLogin" prefHeight="57.0" prefWidth="123.0" style="-fx-background-color: black; -fx-border-radius: 50;" text="Let's go" textFill="#f59212">
+               <font>
+                  <Font name="Book Antiqua" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnExit" layoutX="357.0" layoutY="439.0" mnemonicParsing="false" onAction="#handleButtonActionExit" prefHeight="35.0" prefWidth="88.0" style="-fx-background-color: black;" text="Exit" textFill="#f59212">
+               <font>
+                  <Font name="Book Antiqua Bold" size="16.0" />
+               </font>
+            </Button>
+            <Label fx:id="txtMessage" disable="true" layoutX="432.0" layoutY="14.0" text="Irina" />
+         </children>
+      </Pane>
+      <Pane layoutX="36.0" layoutY="129.0" prefHeight="301.0" prefWidth="516.0" style="-fx-background-image: url('file:C:/Users/Irina/Desktop/Oranj/Client/media/oranj.png'); -fx-background-size: cover;" />
+   </children>
+</Pane>
